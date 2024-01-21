@@ -1,0 +1,28 @@
+import time
+import tkinter as tk
+import turtle
+
+print('Windows for Alfred')
+time.sleep(0.5)
+print('©Copyright 2022-2026 Alfred Stuodios')
+time.sleep(0.5)
+list=['windows is starting','please wait a moment','windows is erroring','exiting']
+error=['0x0001,原因:无法启动Windows','0x0002,原因:系统找不到指定的文件','0x0003,原因:系统找不到指定的路径','0x0004,原因:拒绝访问']
+print(list[0])
+print(list[1])
+time.sleep(1)
+for i in range(1):
+    print('windows is starting.')
+    time.sleep(1)
+    print('windows is starting..')
+    time.sleep(1)
+    print('windows is starting...')
+    time.sleep(1)
+    
+
+    
+Window = tk.Tk()
+Window.title('Windows10 Alfred Edition (Alpha 1.0)')
+Window.geometry("800x600+-10+0")
+
+Window.mainloop()
