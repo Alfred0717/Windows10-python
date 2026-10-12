@@ -4,7 +4,7 @@ import turtle
 
 print('Windows for Alfred')
 time.sleep(0.5)
-print('©Copyright 2022-2026 Alfred Stuodios')
+print('©Copyright 2022-2026 Alfred Studio')
 time.sleep(0.5)
 list=['windows is starting','please wait a moment','windows is erroring','exiting']
 error=['0x0001,原因:无法启动Windows','0x0002,原因:系统找不到指定的文件','0x0003,原因:系统找不到指定的路径','0x0004,原因:拒绝访问']
